@@ -146,8 +146,8 @@ function pinkBalloon() {
   arrow.lifetime = 100;
   arrow.scale = 0.3;
   
-  //arrowGroup.addGroup(arrow);
-  arrow.add(arrowGroup);
+  arrowGroup.addGroup(arrow);
+ // arrow.add(arrowGroup);
   //arrowGroup.add();
   //arrowGroup.add(arrow);
    
